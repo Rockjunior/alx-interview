@@ -26,3 +26,10 @@ def pascal_triangle(n):
         triangle.append(row)  # Add the row to the triangle
 
     return triangle
+
+if __name__ == "__main__":
+    # Example: Call the function and print the result
+    n = 5  # You can change this value to test different sizes
+    result = pascal_triangle(n)
+    for row in result:
+        print(row)
